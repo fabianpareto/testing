@@ -1,0 +1,508 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Mean oracle score per iteration by model.",
+  "data": {
+    "values": [
+      {
+        "model": "gemini-2.5-flash",
+        "iteration": 1,
+        "oracle_prediction": 0.0971260485
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "iteration": 2,
+        "oracle_prediction": 0.1384174502
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "iteration": 3,
+        "oracle_prediction": 0.3693628003
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "iteration": 4,
+        "oracle_prediction": 0.3935137009
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "iteration": 5,
+        "oracle_prediction": 0.2683875321
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "iteration": 6,
+        "oracle_prediction": 0.1956272033
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "iteration": 7,
+        "oracle_prediction": 0.3715156256
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "iteration": 8,
+        "oracle_prediction": 0.3647075779
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "iteration": 9,
+        "oracle_prediction": 0.379109357
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "iteration": 10,
+        "oracle_prediction": 0.2624607046
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "iteration": 11,
+        "oracle_prediction": 0.1319688934
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "iteration": 12,
+        "oracle_prediction": 0.3891989644
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "iteration": 13,
+        "oracle_prediction": 0.3819129652
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "iteration": 14,
+        "oracle_prediction": 0.3668938992
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "iteration": 15,
+        "oracle_prediction": 0.3979712737
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "iteration": 16,
+        "oracle_prediction": 0.3956665261
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "iteration": 17,
+        "oracle_prediction": 0.4018492589
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "iteration": 18,
+        "oracle_prediction": 0.3858742899
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "iteration": 19,
+        "oracle_prediction": 0.4040478112
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "iteration": 20,
+        "oracle_prediction": 0.3990665597
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "iteration": 21,
+        "oracle_prediction": 0.3890287452
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "iteration": 22,
+        "oracle_prediction": 0.4040478112
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "iteration": 23,
+        "oracle_prediction": 0.4004048117
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "iteration": 24,
+        "oracle_prediction": 0.4153507677
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "iteration": 25,
+        "oracle_prediction": 0.4148728162
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "iteration": 26,
+        "oracle_prediction": 0.3998537502
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "iteration": 27,
+        "oracle_prediction": 0.4130460201
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "iteration": 28,
+        "oracle_prediction": 0.4130460201
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "iteration": 29,
+        "oracle_prediction": 0.3978650785
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "iteration": 30,
+        "oracle_prediction": 0.4148728162
+      },
+      {
+        "model": "gpt-5-mini",
+        "iteration": 1,
+        "oracle_prediction": 0.3698951886
+      },
+      {
+        "model": "gpt-5-mini",
+        "iteration": 2,
+        "oracle_prediction": 0.1928652347
+      },
+      {
+        "model": "gpt-5-mini",
+        "iteration": 3,
+        "oracle_prediction": 0.1778685396
+      },
+      {
+        "model": "gpt-5-mini",
+        "iteration": 4,
+        "oracle_prediction": 0.0888240052
+      },
+      {
+        "model": "gpt-5-mini",
+        "iteration": 5,
+        "oracle_prediction": 0.2311962841
+      },
+      {
+        "model": "gpt-5-mini",
+        "iteration": 6,
+        "oracle_prediction": 0.3567440845
+      },
+      {
+        "model": "gpt-5-mini",
+        "iteration": 7,
+        "oracle_prediction": 0.3715221655
+      },
+      {
+        "model": "gpt-5-mini",
+        "iteration": 8,
+        "oracle_prediction": 0.3482611288
+      },
+      {
+        "model": "gpt-5-mini",
+        "iteration": 9,
+        "oracle_prediction": 0.3576999874
+      },
+      {
+        "model": "gpt-5-mini",
+        "iteration": 10,
+        "oracle_prediction": 0.3351001611
+      },
+      {
+        "model": "gpt-5-mini",
+        "iteration": 11,
+        "oracle_prediction": 0.1907050417
+      },
+      {
+        "model": "gpt-5-mini",
+        "iteration": 12,
+        "oracle_prediction": 0.334545644
+      },
+      {
+        "model": "gpt-5-mini",
+        "iteration": 13,
+        "oracle_prediction": 0.3370746808
+      },
+      {
+        "model": "gpt-5-mini",
+        "iteration": 14,
+        "oracle_prediction": 0.3236687426
+      },
+      {
+        "model": "gpt-5-mini",
+        "iteration": 15,
+        "oracle_prediction": 0.3496184518
+      },
+      {
+        "model": "gpt-5-mini",
+        "iteration": 16,
+        "oracle_prediction": 0.3512764628
+      },
+      {
+        "model": "gpt-5-mini",
+        "iteration": 17,
+        "oracle_prediction": 0.3552912186
+      },
+      {
+        "model": "gpt-5-mini",
+        "iteration": 18,
+        "oracle_prediction": 0.3291714508
+      },
+      {
+        "model": "gpt-5-mini",
+        "iteration": 19,
+        "oracle_prediction": 0.3508382431
+      },
+      {
+        "model": "gpt-5-mini",
+        "iteration": 20,
+        "oracle_prediction": 0.3466322823
+      },
+      {
+        "model": "gpt-5-mini",
+        "iteration": 21,
+        "oracle_prediction": 0.3477066116
+      },
+      {
+        "model": "gpt-5-mini",
+        "iteration": 22,
+        "oracle_prediction": 0.3420317161
+      },
+      {
+        "model": "gpt-5-mini",
+        "iteration": 23,
+        "oracle_prediction": 0.3553311816
+      },
+      {
+        "model": "gpt-5-mini",
+        "iteration": 24,
+        "oracle_prediction": 0.3275173958
+      },
+      {
+        "model": "gpt-5-mini",
+        "iteration": 25,
+        "oracle_prediction": 0.3295788174
+      },
+      {
+        "model": "gpt-5-mini",
+        "iteration": 26,
+        "oracle_prediction": 0.3205197297
+      },
+      {
+        "model": "gpt-5-mini",
+        "iteration": 27,
+        "oracle_prediction": 0.3470197925
+      },
+      {
+        "model": "gpt-5-mini",
+        "iteration": 28,
+        "oracle_prediction": 0.3471204417
+      },
+      {
+        "model": "gpt-5-mini",
+        "iteration": 29,
+        "oracle_prediction": 0.350134516
+      },
+      {
+        "model": "gpt-5-mini",
+        "iteration": 30,
+        "oracle_prediction": 0.3430439389
+      },
+      {
+        "model": "grok-4.1-fast",
+        "iteration": 1,
+        "oracle_prediction": 0.345804493
+      },
+      {
+        "model": "grok-4.1-fast",
+        "iteration": 2,
+        "oracle_prediction": 0.1734867445
+      },
+      {
+        "model": "grok-4.1-fast",
+        "iteration": 3,
+        "oracle_prediction": 0.2001736048
+      },
+      {
+        "model": "grok-4.1-fast",
+        "iteration": 4,
+        "oracle_prediction": 0.2957130336
+      },
+      {
+        "model": "grok-4.1-fast",
+        "iteration": 5,
+        "oracle_prediction": 0.3427683734
+      },
+      {
+        "model": "grok-4.1-fast",
+        "iteration": 6,
+        "oracle_prediction": 0.3096199829
+      },
+      {
+        "model": "grok-4.1-fast",
+        "iteration": 7,
+        "oracle_prediction": 0.3080219393
+      },
+      {
+        "model": "grok-4.1-fast",
+        "iteration": 8,
+        "oracle_prediction": 0.3658185668
+      },
+      {
+        "model": "grok-4.1-fast",
+        "iteration": 9,
+        "oracle_prediction": 0.3552860926
+      },
+      {
+        "model": "grok-4.1-fast",
+        "iteration": 10,
+        "oracle_prediction": 0.2414397839
+      },
+      {
+        "model": "grok-4.1-fast",
+        "iteration": 11,
+        "oracle_prediction": 0.3515913597
+      },
+      {
+        "model": "grok-4.1-fast",
+        "iteration": 12,
+        "oracle_prediction": 0.3808376328
+      },
+      {
+        "model": "grok-4.1-fast",
+        "iteration": 13,
+        "oracle_prediction": 0.3666104257
+      },
+      {
+        "model": "grok-4.1-fast",
+        "iteration": 14,
+        "oracle_prediction": 0.3522999572
+      },
+      {
+        "model": "grok-4.1-fast",
+        "iteration": 15,
+        "oracle_prediction": 0.3731822733
+      },
+      {
+        "model": "grok-4.1-fast",
+        "iteration": 16,
+        "oracle_prediction": 0.3781926166
+      },
+      {
+        "model": "grok-4.1-fast",
+        "iteration": 17,
+        "oracle_prediction": 0.3013949506
+      },
+      {
+        "model": "grok-4.1-fast",
+        "iteration": 18,
+        "oracle_prediction": 0.3789391088
+      },
+      {
+        "model": "grok-4.1-fast",
+        "iteration": 19,
+        "oracle_prediction": 0.3691101034
+      },
+      {
+        "model": "grok-4.1-fast",
+        "iteration": 20,
+        "oracle_prediction": 0.3786848076
+      },
+      {
+        "model": "grok-4.1-fast",
+        "iteration": 21,
+        "oracle_prediction": 0.3710991949
+      },
+      {
+        "model": "grok-4.1-fast",
+        "iteration": 22,
+        "oracle_prediction": 0.3808702584
+      },
+      {
+        "model": "grok-4.1-fast",
+        "iteration": 23,
+        "oracle_prediction": 0.3807645705
+      },
+      {
+        "model": "grok-4.1-fast",
+        "iteration": 24,
+        "oracle_prediction": 0.3799765027
+      },
+      {
+        "model": "grok-4.1-fast",
+        "iteration": 25,
+        "oracle_prediction": 0.3514388271
+      },
+      {
+        "model": "grok-4.1-fast",
+        "iteration": 26,
+        "oracle_prediction": 0.336348972
+      },
+      {
+        "model": "grok-4.1-fast",
+        "iteration": 27,
+        "oracle_prediction": 0.36663961
+      },
+      {
+        "model": "grok-4.1-fast",
+        "iteration": 28,
+        "oracle_prediction": 0.3891731908
+      },
+      {
+        "model": "grok-4.1-fast",
+        "iteration": 29,
+        "oracle_prediction": 0.3840548253
+      },
+      {
+        "model": "grok-4.1-fast",
+        "iteration": 30,
+        "oracle_prediction": 0.3818189749
+      }
+    ]
+  },
+  "transform": [
+    {
+      "aggregate": [
+        {
+          "op": "mean",
+          "field": "oracle_prediction",
+          "as": "mean_oracle"
+        }
+      ],
+      "groupby": [
+        "model",
+        "iteration"
+      ]
+    }
+  ],
+  "mark": {
+    "type": "line",
+    "point": true
+  },
+  "encoding": {
+    "x": {
+      "field": "iteration",
+      "type": "quantitative",
+      "title": "Iteration"
+    },
+    "y": {
+      "field": "mean_oracle",
+      "type": "quantitative",
+      "title": "Mean oracle score"
+    },
+    "color": {
+      "field": "model",
+      "type": "nominal",
+      "title": "Model"
+    },
+    "tooltip": [
+      {
+        "field": "model",
+        "type": "nominal"
+      },
+      {
+        "field": "iteration",
+        "type": "quantitative"
+      },
+      {
+        "field": "mean_oracle",
+        "type": "quantitative"
+      }
+    ]
+  }
+}

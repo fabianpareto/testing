@@ -1,0 +1,10 @@
+{
+  "generated_files": [
+    "chart_json/loo_pred_vs_actual.json",
+    "chart_json/loo_abs_error_ranked.json",
+    "chart_json/test_abs_error_hist.json",
+    "chart_json/full_top20_predicted.json",
+    "chart_json/full_pred_by_energy_boxplot.json",
+    "chart_json/rationale_mean_oracle_by_iteration.json"
+  ]
+}
