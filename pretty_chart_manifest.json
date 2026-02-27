@@ -1,0 +1,9 @@
+{
+  "generated_files": [
+    "chart_json_pretty/pretty_loo_scatter.json",
+    "chart_json_pretty/pretty_loo_error_rank.json",
+    "chart_json_pretty/pretty_test_error_hist.json",
+    "chart_json_pretty/pretty_full_top15.json",
+    "chart_json_pretty/pretty_learning_curves.json"
+  ]
+}

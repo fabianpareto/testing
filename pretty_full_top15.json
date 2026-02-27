@@ -1,0 +1,136 @@
+{
+  "backgroundColor": "#f8fafc",
+  "color": [
+    "#2563eb",
+    "#0891b2",
+    "#10b981",
+    "#f59e0b",
+    "#f97316",
+    "#ef4444",
+    "#a855f7"
+  ],
+  "title": {
+    "text": "Top Predicted Experiments",
+    "subtext": "Highest oracle productivity (top 15)",
+    "left": "center",
+    "top": 12,
+    "textStyle": {
+      "color": "#0f172a",
+      "fontSize": 18,
+      "fontWeight": 700
+    },
+    "subtextStyle": {
+      "color": "#64748b",
+      "fontSize": 12
+    }
+  },
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "tooltip": {
+    "trigger": "axis",
+    "axisPointer": {
+      "type": "shadow"
+    }
+  },
+  "grid": {
+    "left": 170,
+    "right": 35,
+    "top": 90,
+    "bottom": 45
+  },
+  "xAxis": {
+    "type": "value",
+    "name": "Predicted productivity (mg/mL/hr)",
+    "axisLabel": {
+      "color": "#64748b"
+    },
+    "axisLine": {
+      "lineStyle": {
+        "color": "#e2e8f0"
+      }
+    },
+    "splitLine": {
+      "lineStyle": {
+        "color": "#e2e8f0",
+        "type": "dashed"
+      }
+    }
+  },
+  "yAxis": {
+    "type": "category",
+    "inverse": true,
+    "data": [
+      "semicontinuous_standard",
+      "ge2011_twostage",
+      "shimizu2021_dialysis",
+      "bartsch2024_reference_2pctPEG",
+      "caschera2013_t7_cascade",
+      "chaperone_combined",
+      "sun2013_k_high",
+      "chaperone_dnak",
+      "michelreydellet2004_sdaAB",
+      "michelreydellet2004_tnaA",
+      "michelreydellet2004_speA",
+      "chaperone_groesel",
+      "sun2013_dna_low",
+      "sun2013_dtt_optimal",
+      "sun2013_mg_low"
+    ],
+    "axisLabel": {
+      "color": "#64748b"
+    },
+    "axisLine": {
+      "lineStyle": {
+        "color": "#e2e8f0"
+      }
+    }
+  },
+  "series": [
+    {
+      "type": "bar",
+      "data": [
+        0.521053781618017,
+        0.4835924475162264,
+        0.43869712878204,
+        0.3831387697513514,
+        0.2661748071265953,
+        0.2587187601319761,
+        0.2558026644284701,
+        0.2212562226694387,
+        0.1837207107268053,
+        0.1837207107268053,
+        0.1837207107268053,
+        0.1688086702218863,
+        0.1576067059990554,
+        0.1574808781881869,
+        0.1570191923396106
+      ],
+      "barWidth": "64%",
+      "itemStyle": {
+        "borderRadius": [
+          0,
+          8,
+          8,
+          0
+        ],
+        "color": {
+          "type": "linear",
+          "x": 0,
+          "y": 0,
+          "x2": 1,
+          "y2": 0,
+          "colorStops": [
+            {
+              "offset": 0,
+              "color": "#2563eb"
+            },
+            {
+              "offset": 1,
+              "color": "#14b8a6"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

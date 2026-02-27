@@ -1,0 +1,205 @@
+{
+  "backgroundColor": "#f8fafc",
+  "color": [
+    "#2563eb",
+    "#0891b2",
+    "#10b981",
+    "#f59e0b",
+    "#f97316",
+    "#ef4444",
+    "#a855f7"
+  ],
+  "title": {
+    "text": "Error Ranking",
+    "subtext": "Absolute error per experiment (LOO)",
+    "left": "center",
+    "top": 12,
+    "textStyle": {
+      "color": "#0f172a",
+      "fontSize": 18,
+      "fontWeight": 700
+    },
+    "subtextStyle": {
+      "color": "#64748b",
+      "fontSize": 12
+    }
+  },
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "tooltip": {
+    "trigger": "axis",
+    "axisPointer": {
+      "type": "shadow"
+    }
+  },
+  "grid": {
+    "left": 65,
+    "right": 25,
+    "top": 90,
+    "bottom": 120
+  },
+  "xAxis": {
+    "type": "category",
+    "data": [
+      "ge2011_peg5_10",
+      "bartsch2024_reference_2pctPEG",
+      "microfluidic_chemostat",
+      "shimizu2021_dialysis",
+      "semicontinuous_standard",
+      "sun2013_mg_high",
+      "shimizu2021_hcce_1x",
+      "calhoun2006_kc6",
+      "caschera2014_3pga",
+      "extract_lysozyme",
+      "calhoun2006_wt",
+      "stogbauer2017_high_ntp",
+      "sun2013_dna_low",
+      "sun2013_dialyzed",
+      "sun2013_k_high",
+      "sun2013_k_low",
+      "caschera2013_t7_cascade",
+      "shimizu2021_hcce_2x",
+      "sun2013_od_low",
+      "sun2013_dtt_zero",
+      "chaperone_combined",
+      "ge2011_twostage",
+      "stogbauer2017_high_ntp_mg",
+      "shimizu2021_3x_ntp",
+      "sun2013_mg_optimal",
+      "sun2013_dna_high",
+      "shimizu2021_standard_1x",
+      "sun2013_dna_optimal",
+      "ge2011_peg1",
+      "ge2011_peg2",
+      "sun2013_od_optimal",
+      "chaperone_groesel",
+      "sun2013_temp_standard",
+      "ge2011_peg3",
+      "michelreydellet2004_wt",
+      "sun2013_dtt_optimal",
+      "chaperone_37c",
+      "caschera2014_maltose",
+      "caschera2014_maltodextrin",
+      "chaperone_dnak",
+      "sun2013_k_optimal",
+      "chaperone_none",
+      "ge2011_peg0",
+      "sun2013_batch",
+      "sun2013_mg_low",
+      "michelreydellet2004_sdaAB",
+      "michelreydellet2004_tnaA",
+      "michelreydellet2004_speA",
+      "chaperone_25c"
+    ],
+    "axisLabel": {
+      "color": "#64748b",
+      "rotate": 45,
+      "fontSize": 10
+    },
+    "axisLine": {
+      "lineStyle": {
+        "color": "#e2e8f0"
+      }
+    }
+  },
+  "yAxis": {
+    "type": "value",
+    "name": "Absolute error (mg/mL/hr)",
+    "axisLabel": {
+      "color": "#64748b"
+    },
+    "axisLine": {
+      "lineStyle": {
+        "color": "#e2e8f0"
+      }
+    },
+    "splitLine": {
+      "lineStyle": {
+        "color": "#e2e8f0",
+        "type": "dashed"
+      }
+    }
+  },
+  "series": [
+    {
+      "type": "bar",
+      "data": [
+        0.2251033074145969,
+        0.2051480202530305,
+        0.1744730157153787,
+        0.1568455522778656,
+        0.1513565344762369,
+        0.131923274182069,
+        0.1072819827510271,
+        0.0948734440643661,
+        0.0817338572999413,
+        0.0735052265057818,
+        0.0677817863661855,
+        0.0672692988754462,
+        0.0670678505729442,
+        0.0664563840448926,
+        0.0623531065619152,
+        0.0622996281883029,
+        0.05575417640362,
+        0.0556348233127557,
+        0.0536105845898211,
+        0.0496888543850711,
+        0.048788202605647,
+        0.048072651510994,
+        0.0457710457525645,
+        0.0411714121592231,
+        0.0388473428915095,
+        0.0336180545143312,
+        0.0322034347820306,
+        0.0297507148944174,
+        0.0295973426925686,
+        0.0281297617513993,
+        0.0248948885757969,
+        0.0240996762607471,
+        0.023155690868959,
+        0.0220879758120475,
+        0.0218792898281387,
+        0.0213043187832408,
+        0.020793970067005,
+        0.0206817371267315,
+        0.0206817371267315,
+        0.0198238989789023,
+        0.0196954626047634,
+        0.0124886547575804,
+        0.011521939338658,
+        0.0091394299316285,
+        0.0075872655766408,
+        0.0007047106161447,
+        0.0007047106161447,
+        0.0007047106161447,
+        0.0003291367240528
+      ],
+      "barWidth": "70%",
+      "itemStyle": {
+        "borderRadius": [
+          8,
+          8,
+          0,
+          0
+        ],
+        "color": {
+          "type": "linear",
+          "x": 0,
+          "y": 0,
+          "x2": 0,
+          "y2": 1,
+          "colorStops": [
+            {
+              "offset": 0,
+              "color": "#f97316"
+            },
+            {
+              "offset": 1,
+              "color": "#fb7185"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
