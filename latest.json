@@ -1,0 +1,9 @@
+{
+  "run_id": "test-001",
+  "updated_at": "2026-02-26T00:00:00Z",
+  "models": [
+    {"name": "model-a", "score": 0.72},
+    {"name": "model-b", "score": 0.68},
+    {"name": "model-c", "score": 0.81}
+  ]
+}
