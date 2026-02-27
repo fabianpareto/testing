@@ -1,0 +1,114 @@
+{
+  "backgroundColor": "transparent",
+  "color": [
+    "#2563eb",
+    "#0891b2",
+    "#10b981",
+    "#f59e0b",
+    "#f97316",
+    "#ef4444",
+    "#a855f7"
+  ],
+  "title": {
+    "text": "Test Error Distribution",
+    "subtext": "How often each error range appears",
+    "left": "center",
+    "top": 12,
+    "textStyle": {
+      "color": "#0f172a",
+      "fontSize": 18,
+      "fontWeight": 700
+    },
+    "subtextStyle": {
+      "color": "#64748b",
+      "fontSize": 12
+    }
+  },
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "tooltip": {
+    "trigger": "axis",
+    "axisPointer": {
+      "type": "shadow"
+    }
+  },
+  "grid": {
+    "left": 65,
+    "right": 25,
+    "top": 90,
+    "bottom": 90
+  },
+  "xAxis": {
+    "type": "category",
+    "data": [
+      "0.009-0.052",
+      "0.052-0.095",
+      "0.095-0.138",
+      "0.138-0.181"
+    ],
+    "axisLabel": {
+      "color": "#64748b",
+      "rotate": 22
+    },
+    "axisLine": {
+      "lineStyle": {
+        "color": "#e2e8f0"
+      }
+    }
+  },
+  "yAxis": {
+    "type": "value",
+    "name": "Count",
+    "axisLabel": {
+      "color": "#64748b"
+    },
+    "axisLine": {
+      "lineStyle": {
+        "color": "#e2e8f0"
+      }
+    },
+    "splitLine": {
+      "lineStyle": {
+        "color": "#e2e8f0",
+        "type": "dashed"
+      }
+    }
+  },
+  "series": [
+    {
+      "type": "bar",
+      "data": [
+        6,
+        4,
+        1,
+        1
+      ],
+      "barWidth": "72%",
+      "itemStyle": {
+        "borderRadius": [
+          8,
+          8,
+          0,
+          0
+        ],
+        "color": {
+          "type": "linear",
+          "x": 0,
+          "y": 0,
+          "x2": 0,
+          "y2": 1,
+          "colorStops": [
+            {
+              "offset": 0,
+              "color": "#22c55e"
+            },
+            {
+              "offset": 1,
+              "color": "#0ea5e9"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
