@@ -138,7 +138,7 @@
       "barMaxWidth": 44,
       "barGap": "20%",
       "barCategoryGap": "35%",
-      "showBackground": true,
+      "showBackground": false,
       "backgroundStyle": {
         "color": "rgba(99, 105, 229, 0.08)"
       },
