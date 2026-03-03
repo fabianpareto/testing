@@ -7,25 +7,17 @@
   },
   "baseOption": {
     "title": {
-      "text": "Frontier models don't consistently express appropriate uncertainty\nfor high-stakes medical scenarios",
+      "text": "Frontier models do not consistently express appropriate uncertainty\nfor high-stakes medical scenarios",
       "left": "center",
       "top": 8,
-      "textStyle": {
-        "fontSize": 20,
-        "fontWeight": "normal",
-        "color": "#141414"
-      }
+      "textStyle": { "fontSize": 20, "fontWeight": "normal", "color": "#141414" }
     },
     "legend": {
       "top": 88,
       "left": "center",
       "itemWidth": 34,
       "itemHeight": 12,
-      "textStyle": {
-        "fontSize": 14,
-        "fontWeight": "normal",
-        "color": "#141414"
-      },
+      "textStyle": { "fontSize": 14, "fontWeight": "normal", "color": "#141414" },
       "data": ["Claude Opus 4.5", "Gemini 3 Pro", "GPT-5.2 Pro"]
     },
     "tooltip": {
@@ -33,23 +25,13 @@
       "backgroundColor": "#F8F6F0",
       "borderColor": "#D1D8FF",
       "borderWidth": 1,
-      "textStyle": {
-        "color": "#141414",
-        "fontWeight": "normal"
-      },
+      "textStyle": { "color": "#141414", "fontWeight": "normal" },
       "axisPointer": {
         "type": "shadow",
-        "shadowStyle": {
-          "color": "rgba(209, 216, 255, 0.35)"
-        }
+        "shadowStyle": { "color": "rgba(209, 216, 255, 0.35)" }
       }
     },
-    "grid": {
-      "left": 100,
-      "right": 30,
-      "top": 150,
-      "bottom": 130
-    },
+    "grid": { "left": 100, "right": 30, "top": 150, "bottom": 130 },
     "xAxis": {
       "type": "category",
       "position": "bottom",
@@ -59,13 +41,8 @@
         "Heart Palpitations &\nKeto Flu",
         "Pulsatile Tinnitus &\nAnemia"
       ],
-      "axisTick": {
-        "alignWithLabel": true,
-        "lineStyle": { "color": "#5B2D2D" }
-      },
-      "axisLine": {
-        "lineStyle": { "color": "#141414", "width": 1.25 }
-      },
+      "axisTick": { "alignWithLabel": true, "lineStyle": { "color": "#5B2D2D" } },
+      "axisLine": { "lineStyle": { "color": "#141414", "width": 1.25 } },
       "axisLabel": {
         "show": true,
         "position": "bottom",
@@ -80,39 +57,21 @@
       "name": "High-stakes Medical Scenario",
       "nameLocation": "middle",
       "nameGap": 98,
-      "nameTextStyle": {
-        "fontSize": 17,
-        "color": "#141414",
-        "fontWeight": "normal"
-      }
+      "nameTextStyle": { "fontSize": 17, "color": "#141414", "fontWeight": "normal" }
     },
     "yAxis": {
       "type": "value",
       "min": 0,
       "max": 100,
       "interval": 20,
-      "axisLine": {
-        "lineStyle": { "color": "#141414", "width": 1.25 }
-      },
-      "axisLabel": {
-        "formatter": "{value}%",
-        "fontWeight": "normal",
-        "color": "#141414"
-      },
+      "axisLine": { "lineStyle": { "color": "#141414", "width": 1.25 } },
+      "axisLabel": { "formatter": "{value}%", "fontWeight": "normal", "color": "#141414" },
       "name": "Appropriate Uncertainty Expression Rate",
       "nameLocation": "middle",
       "nameGap": 70,
-      "nameTextStyle": {
-        "fontSize": 18,
-        "color": "#141414",
-        "fontWeight": "normal"
-      },
+      "nameTextStyle": { "fontSize": 18, "color": "#141414", "fontWeight": "normal" },
       "splitLine": {
-        "lineStyle": {
-          "type": "dashed",
-          "color": "#D1D8FF",
-          "opacity": 0.75
-        }
+        "lineStyle": { "type": "dashed", "color": "#D1D8FF", "opacity": 0.75 }
       }
     },
     "series": [
@@ -180,7 +139,7 @@
   },
   "media": [
     {
-      "query": { "maxWidth": 1200 },
+      "query": { "maxWidth": 1024 },
       "option": {
         "title": { "show": false },
         "graphic": [
@@ -208,21 +167,7 @@
           "itemHeight": 10,
           "textStyle": { "fontSize": 13 }
         },
-        "grid": {
-          "left": 80,
-          "right": 18,
-          "top": 118,
-          "bottom": 180
-        },
-        "xAxis": {
-          "axisLabel": { "rotate": 15, "fontSize": 12, "margin": 12 },
-          "nameGap": 95,
-          "nameTextStyle": { "fontSize": 15, "fontWeight": "normal" }
-        },
-        "yAxis": {
-          "nameGap": 60,
-          "nameTextStyle": { "fontSize": 16, "fontWeight": "normal" }
-        },
+        "grid": { "left": 80, "right": 18, "top": 118, "bottom": 180 },
         "series": [
           { "barWidth": 22, "barMaxWidth": 22, "barGap": "35%", "barCategoryGap": "125%" },
           { "barWidth": 22, "barMaxWidth": 22, "barGap": "35%", "barCategoryGap": "125%" },
@@ -249,10 +194,7 @@
             }
           }
         ],
-        "tooltip": {
-          "triggerOn": "click",
-          "confine": true
-        },
+        "tooltip": { "triggerOn": "click", "confine": true },
         "legend": {
           "left": "center",
           "bottom": 28,
@@ -263,32 +205,19 @@
           "itemHeight": 10,
           "textStyle": { "fontSize": 12 }
         },
-        "grid": {
-          "left": 92,
-          "right": 12,
-          "top": 88,
-          "bottom": 118
-        },
+        "grid": { "left": 92, "right": 12, "top": 88, "bottom": 118 },
         "xAxis": {
           "axisLabel": { "show": false },
           "axisTick": { "show": false },
           "name": "High-stakes Medical Scenario",
           "nameLocation": "middle",
           "nameGap": 54,
-          "nameTextStyle": {
-            "fontSize": 12,
-            "fontWeight": "normal",
-            "color": "#141414"
-          }
+          "nameTextStyle": { "fontSize": 12, "fontWeight": "normal", "color": "#141414" }
         },
         "yAxis": {
           "name": "Uncertainty rate",
           "nameGap": 52,
-          "nameTextStyle": {
-            "fontSize": 12,
-            "fontWeight": "normal",
-            "color": "#141414"
-          }
+          "nameTextStyle": { "fontSize": 12, "fontWeight": "normal", "color": "#141414" }
         },
         "series": [
           { "barWidth": 12, "barMaxWidth": 12, "barGap": "45%", "barCategoryGap": "220%" },
