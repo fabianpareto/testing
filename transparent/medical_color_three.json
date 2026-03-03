@@ -189,7 +189,7 @@
             "left": "center",
             "top": 10,
             "style": {
-              "text": "Frontier models don’t consistently express appropriate uncertainty\nfor high-stakes medical scenarios",
+              "text": "Frontier models do not consistently express appropriate uncertainty\nfor high-stakes medical scenarios",
               "fill": "#141414",
               "font": "normal 17px Avenir Next, Avenir, Segoe UI, sans-serif",
               "lineHeight": 21,
