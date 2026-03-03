@@ -7,7 +7,7 @@
   },
   "baseOption": {
     "title": {
-      "text": "Frontier models don't consistently express appropriate uncertainty\nfor high-stakes medical scenarios",
+      "text": "Frontier models do not consistently express appropriate uncertainty\nfor high-stakes medical scenarios",
       "left": "center",
       "top": 8,
       "textStyle": {
@@ -193,7 +193,8 @@
               "fill": "#141414",
               "font": "normal 16px Avenir Next, Avenir, Segoe UI, sans-serif",
               "lineHeight": 20,
-              "align": "center"
+              "align": "center",
+              "textAlign": "center"
             }
           }
         ],
@@ -243,7 +244,8 @@
               "fill": "#141414",
               "font": "normal 13px Avenir Next, Avenir, Segoe UI, sans-serif",
               "lineHeight": 16,
-              "align": "center"
+              "align": "center",
+              "textAlign": "center"
             }
           }
         ],
@@ -276,13 +278,23 @@
           ],
           "axisLabel": { "show": false },
           "axisTick": { "show": false },
-          "nameGap": 85,
-          "nameTextStyle": { "fontSize": 14, "fontWeight": "normal" }
+          "name": "High-stakes Medical Scenario",
+          "nameLocation": "middle",
+          "nameGap": 90,
+          "nameTextStyle": {
+            "fontSize": 12,
+            "fontWeight": "normal",
+            "color": "#141414"
+          }
         },
         "yAxis": {
           "name": "Uncertainty rate",
           "nameGap": 52,
-          "nameTextStyle": { "fontSize": 12, "fontWeight": "normal" }
+          "nameTextStyle": {
+            "fontSize": 12,
+            "fontWeight": "normal",
+            "color": "#141414"
+          }
         },
         "series": [
           { "barWidth": 12, "barMaxWidth": 12, "barGap": "45%", "barCategoryGap": "220%" },
