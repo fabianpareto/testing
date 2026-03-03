@@ -61,15 +61,10 @@
       ],
       "axisTick": {
         "alignWithLabel": true,
-        "lineStyle": {
-          "color": "#5B2D2D"
-        }
+        "lineStyle": { "color": "#5B2D2D" }
       },
       "axisLine": {
-        "lineStyle": {
-          "color": "#141414",
-          "width": 1.25
-        }
+        "lineStyle": { "color": "#141414", "width": 1.25 }
       },
       "axisLabel": {
         "show": true,
@@ -97,10 +92,7 @@
       "max": 100,
       "interval": 20,
       "axisLine": {
-        "lineStyle": {
-          "color": "#141414",
-          "width": 1.25
-        }
+        "lineStyle": { "color": "#141414", "width": 1.25 }
       },
       "axisLabel": {
         "formatter": "{value}%",
@@ -133,10 +125,7 @@
         "barCategoryGap": "60%",
         "barMinHeight": 5,
         "data": [20, 0, 0, 40],
-        "itemStyle": {
-          "color": "#6369e5",
-          "borderRadius": 0
-        },
+        "itemStyle": { "color": "#6369e5", "borderRadius": 0 },
         "label": {
           "show": true,
           "formatter": "{c}%",
@@ -156,10 +145,7 @@
         "barCategoryGap": "60%",
         "barMinHeight": 5,
         "data": [0, 0, 0, 0],
-        "itemStyle": {
-          "color": "rgba(91, 45, 45, 0.35)",
-          "borderRadius": 0
-        },
+        "itemStyle": { "color": "rgba(91, 45, 45, 0.35)", "borderRadius": 0 },
         "label": {
           "show": true,
           "formatter": "{c}%",
@@ -179,10 +165,7 @@
         "barCategoryGap": "60%",
         "barMinHeight": 5,
         "data": [100, 50, 100, 90],
-        "itemStyle": {
-          "color": "#D1D8FF",
-          "borderRadius": 0
-        },
+        "itemStyle": { "color": "#D1D8FF", "borderRadius": 0 },
         "label": {
           "show": true,
           "formatter": "{c}%",
