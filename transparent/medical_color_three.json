@@ -180,19 +180,19 @@
   },
   "media": [
     {
-      "query": { "maxWidth": 860 },
+      "query": { "minWidth": 521, "maxWidth": 860 },
       "option": {
         "title": { "show": false },
         "graphic": [
           {
             "type": "text",
             "left": "center",
-            "top": 8,
+            "top": 10,
             "style": {
               "text": "Frontier models don’t consistently express appropriate uncertainty\nfor high-stakes medical scenarios",
               "fill": "#141414",
-              "font": "normal 16px Avenir Next, Avenir, Segoe UI, sans-serif",
-              "lineHeight": 20,
+              "font": "normal 17px Avenir Next, Avenir, Segoe UI, sans-serif",
+              "lineHeight": 21,
               "align": "center",
               "textAlign": "center"
             }
@@ -204,25 +204,50 @@
           "top": null,
           "orient": "horizontal",
           "type": "scroll",
-          "itemWidth": 26,
-          "itemHeight": 10,
+          "itemWidth": 28,
+          "itemHeight": 11,
           "textStyle": { "fontSize": 13 }
         },
         "grid": {
-          "left": 80,
+          "left": 86,
           "right": 18,
-          "top": 118,
-          "bottom": 180
+          "top": 128,
+          "bottom": 150
+        },
+        "xAxis": {
+          "axisLabel": {
+            "show": true,
+            "rotate": 18,
+            "fontSize": 12,
+            "lineHeight": 14,
+            "margin": 12,
+            "hideOverlap": true,
+            "color": "#141414"
+          },
+          "nameGap": 80,
+          "nameTextStyle": {
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#141414"
+          }
+        },
+        "yAxis": {
+          "nameTextStyle": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "color": "#141414"
+          },
+          "nameGap": 62
         },
         "series": [
-          { "barWidth": 22, "barMaxWidth": 22, "barGap": "35%", "barCategoryGap": "125%" },
-          { "barWidth": 22, "barMaxWidth": 22, "barGap": "35%", "barCategoryGap": "125%" },
-          { "barWidth": 22, "barMaxWidth": 22, "barGap": "35%", "barCategoryGap": "125%" }
+          { "barWidth": 26, "barMaxWidth": 26, "barGap": "25%", "barCategoryGap": "85%" },
+          { "barWidth": 26, "barMaxWidth": 26, "barGap": "25%", "barCategoryGap": "85%" },
+          { "barWidth": 26, "barMaxWidth": 26, "barGap": "25%", "barCategoryGap": "85%" }
         ]
       }
     },
     {
-      "query": { "maxWidth": 768 },
+      "query": { "maxWidth": 520 },
       "option": {
         "title": { "show": false },
         "graphic": [
