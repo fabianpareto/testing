@@ -209,7 +209,7 @@
           "textStyle": { "fontSize": 12 }
         },
         "grid": {
-          "left": 42,
+          "left": 36,
           "right": 10,
           "top": 96,
           "bottom": 114
@@ -237,6 +237,9 @@
             "color": "#141414"
           },
           "axisLabel": {
+            "show": false
+          },
+          "axisLine": {
             "show": false
           }
         },
