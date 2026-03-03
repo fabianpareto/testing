@@ -61,10 +61,15 @@
       ],
       "axisTick": {
         "alignWithLabel": true,
-        "lineStyle": { "color": "#5B2D2D" }
+        "lineStyle": {
+          "color": "#5B2D2D"
+        }
       },
       "axisLine": {
-        "lineStyle": { "color": "#141414", "width": 1.25 }
+        "lineStyle": {
+          "color": "#141414",
+          "width": 1.25
+        }
       },
       "axisLabel": {
         "show": true,
@@ -92,7 +97,10 @@
       "max": 100,
       "interval": 20,
       "axisLine": {
-        "lineStyle": { "color": "#141414", "width": 1.25 }
+        "lineStyle": {
+          "color": "#141414",
+          "width": 1.25
+        }
       },
       "axisLabel": {
         "formatter": "{value}%",
@@ -125,7 +133,10 @@
         "barCategoryGap": "60%",
         "barMinHeight": 5,
         "data": [20, 0, 0, 40],
-        "itemStyle": { "color": "#6369e5", "borderRadius": 0 },
+        "itemStyle": {
+          "color": "#6369e5",
+          "borderRadius": 0
+        },
         "label": {
           "show": true,
           "formatter": "{c}%",
@@ -145,7 +156,10 @@
         "barCategoryGap": "60%",
         "barMinHeight": 5,
         "data": [0, 0, 0, 0],
-        "itemStyle": { "color": "rgba(91, 45, 45, 0.35)", "borderRadius": 0 },
+        "itemStyle": {
+          "color": "rgba(91, 45, 45, 0.35)",
+          "borderRadius": 0
+        },
         "label": {
           "show": true,
           "formatter": "{c}%",
@@ -165,7 +179,10 @@
         "barCategoryGap": "60%",
         "barMinHeight": 5,
         "data": [100, 50, 100, 90],
-        "itemStyle": { "color": "#D1D8FF", "borderRadius": 0 },
+        "itemStyle": {
+          "color": "#D1D8FF",
+          "borderRadius": 0
+        },
         "label": {
           "show": true,
           "formatter": "{c}%",
@@ -182,26 +199,46 @@
     {
       "query": { "maxWidth": 480 },
       "option": {
+        "title": {
+          "top": 10,
+          "left": "center",
+          "textStyle": {
+            "fontSize": 16,
+            "lineHeight": 20
+          },
+          "width": "92%",
+          "overflow": "break"
+        },
         "legend": {
-          "orient": "vertical",
-          "right": 10,
-          "top": "middle",
-          "left": null
+          "top": 78,
+          "left": "center",
+          "orient": "horizontal",
+          "type": "scroll",
+          "itemWidth": 24,
+          "itemHeight": 10,
+          "textStyle": {
+            "fontSize": 12
+          }
         },
         "grid": {
-          "left": 70,
-          "right": 20,
-          "top": 150,
-          "bottom": 150
+          "left": 60,
+          "right": 16,
+          "top": 130,
+          "bottom": 140
         },
         "xAxis": {
           "axisLabel": {
-            "rotate": 45,
+            "rotate": 35,
             "fontSize": 12,
             "margin": 12
           },
-          "nameGap": 110
-        }
+          "nameGap": 105
+        },
+        "series": [
+          { "barCategoryGap": "80%" },
+          { "barCategoryGap": "80%" },
+          { "barCategoryGap": "80%" }
+        ]
       }
     }
   ]
