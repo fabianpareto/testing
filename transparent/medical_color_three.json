@@ -180,6 +180,48 @@
   },
   "media": [
     {
+      "query": { "maxWidth": 860 },
+      "option": {
+        "title": { "show": false },
+        "graphic": [
+          {
+            "type": "text",
+            "left": "center",
+            "top": 8,
+            "style": {
+              "text": "Frontier models don’t consistently express appropriate uncertainty\nfor high-stakes medical scenarios",
+              "fill": "#141414",
+              "font": "normal 16px Avenir Next, Avenir, Segoe UI, sans-serif",
+              "lineHeight": 20,
+              "align": "center",
+              "textAlign": "center"
+            }
+          }
+        ],
+        "legend": {
+          "left": "center",
+          "bottom": 10,
+          "top": null,
+          "orient": "horizontal",
+          "type": "scroll",
+          "itemWidth": 26,
+          "itemHeight": 10,
+          "textStyle": { "fontSize": 13 }
+        },
+        "grid": {
+          "left": 80,
+          "right": 18,
+          "top": 118,
+          "bottom": 180
+        },
+        "series": [
+          { "barWidth": 22, "barMaxWidth": 22, "barGap": "35%", "barCategoryGap": "125%" },
+          { "barWidth": 22, "barMaxWidth": 22, "barGap": "35%", "barCategoryGap": "125%" },
+          { "barWidth": 22, "barMaxWidth": 22, "barGap": "35%", "barCategoryGap": "125%" }
+        ]
+      }
+    },
+    {
       "query": { "maxWidth": 768 },
       "option": {
         "title": { "show": false },
