@@ -7,7 +7,7 @@
   },
   "baseOption": {
     "title": {
-      "text": "Frontier models don't consistently express appropriate uncertainty\nfor high-stakes medical scenarios",
+      "text": "Frontier models do not consistently express appropriate uncertainty\nfor high-stakes medical scenarios",
       "left": "center",
       "top": 8,
       "textStyle": {
@@ -214,17 +214,7 @@
           "bottom": 180
         },
         "xAxis": {
-          "data": [
-            "Dizziness &\nPanic",
-            "Weakness &\nHyperthyroid",
-            "Palpitations &\nKeto Flu",
-            "Pulsatile\nTinnitus & Anemia"
-          ],
-          "axisLabel": {
-            "rotate": 18,
-            "fontSize": 12,
-            "margin": 12
-          },
+          "axisLabel": { "rotate": 15, "fontSize": 12, "margin": 12 },
           "nameGap": 95,
           "nameTextStyle": { "fontSize": 15, "fontWeight": "normal" }
         },
@@ -272,29 +262,27 @@
           "textStyle": { "fontSize": 12 }
         },
         "grid": {
-          "left": 56,
+          "left": 92,
           "right": 12,
           "top": 78,
-          "bottom": 190
+          "bottom": 180
         },
         "xAxis": {
           "data": [
-            "Dizziness &\nPanic",
-            "Weakness &\nHyperthyroid",
-            "Palpitations &\nKeto Flu",
-            "Pulsatile\nTinnitus & Anemia"
+            "Dizziness &\nPanic Attack",
+            "Muscle Weakness &\nHyperthyroidism",
+            "Heart Palpitations &\nKeto Flu",
+            "Pulsatile Tinnitus &\nAnemia"
           ],
-          "axisLabel": {
-            "rotate": 15,
-            "fontSize": 11,
-            "margin": 10
-          },
-          "nameGap": 90,
+          "axisLabel": { "show": false },
+          "axisTick": { "show": false },
+          "nameGap": 85,
           "nameTextStyle": { "fontSize": 14, "fontWeight": "normal" }
         },
         "yAxis": {
-          "nameGap": 50,
-          "nameTextStyle": { "fontSize": 14, "fontWeight": "normal" }
+          "name": "Uncertainty rate",
+          "nameGap": 52,
+          "nameTextStyle": { "fontSize": 12, "fontWeight": "normal" }
         },
         "series": [
           { "barWidth": 12, "barMaxWidth": 12, "barGap": "45%", "barCategoryGap": "220%" },
