@@ -7,7 +7,7 @@
   },
   "baseOption": {
     "title": {
-      "text": "Frontier models don't consistently express appropriate uncertainty\nfor high-stakes medical scenarios",
+      "text": "Frontier models do not consistently express appropriate uncertainty\nfor high-stakes medical scenarios",
       "left": "center",
       "top": 8,
       "textStyle": {
@@ -211,7 +211,7 @@
         "grid": {
           "left": 80,
           "right": 18,
-          "top": 110,
+          "top": 118,
           "bottom": 180
         },
         "xAxis": {
@@ -255,7 +255,7 @@
         },
         "legend": {
           "left": "center",
-          "bottom": 8,
+          "bottom": 28,
           "top": null,
           "orient": "horizontal",
           "type": "scroll",
@@ -266,21 +266,15 @@
         "grid": {
           "left": 92,
           "right": 12,
-          "top": 78,
-          "bottom": 180
+          "top": 88,
+          "bottom": 118
         },
         "xAxis": {
-          "data": [
-            "Dizziness &\nPanic Attack",
-            "Muscle Weakness &\nHyperthyroidism",
-            "Heart Palpitations &\nKeto Flu",
-            "Pulsatile Tinnitus &\nAnemia"
-          ],
           "axisLabel": { "show": false },
           "axisTick": { "show": false },
           "name": "High-stakes Medical Scenario",
           "nameLocation": "middle",
-          "nameGap": 90,
+          "nameGap": 54,
           "nameTextStyle": {
             "fontSize": 12,
             "fontWeight": "normal",
