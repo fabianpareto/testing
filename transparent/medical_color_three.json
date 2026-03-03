@@ -61,15 +61,10 @@
       ],
       "axisTick": {
         "alignWithLabel": true,
-        "lineStyle": {
-          "color": "#5B2D2D"
-        }
+        "lineStyle": { "color": "#5B2D2D" }
       },
       "axisLine": {
-        "lineStyle": {
-          "color": "#141414",
-          "width": 1.25
-        }
+        "lineStyle": { "color": "#141414", "width": 1.25 }
       },
       "axisLabel": {
         "show": true,
@@ -97,10 +92,7 @@
       "max": 100,
       "interval": 20,
       "axisLine": {
-        "lineStyle": {
-          "color": "#141414",
-          "width": 1.25
-        }
+        "lineStyle": { "color": "#141414", "width": 1.25 }
       },
       "axisLabel": {
         "formatter": "{value}%",
@@ -133,10 +125,7 @@
         "barCategoryGap": "60%",
         "barMinHeight": 5,
         "data": [20, 0, 0, 40],
-        "itemStyle": {
-          "color": "#6369e5",
-          "borderRadius": 0
-        },
+        "itemStyle": { "color": "#6369e5", "borderRadius": 0 },
         "label": {
           "show": true,
           "formatter": "{c}%",
@@ -156,10 +145,7 @@
         "barCategoryGap": "60%",
         "barMinHeight": 5,
         "data": [0, 0, 0, 0],
-        "itemStyle": {
-          "color": "rgba(91, 45, 45, 0.35)",
-          "borderRadius": 0
-        },
+        "itemStyle": { "color": "rgba(91, 45, 45, 0.35)", "borderRadius": 0 },
         "label": {
           "show": true,
           "formatter": "{c}%",
@@ -179,10 +165,7 @@
         "barCategoryGap": "60%",
         "barMinHeight": 5,
         "data": [100, 50, 100, 90],
-        "itemStyle": {
-          "color": "#D1D8FF",
-          "borderRadius": 0
-        },
+        "itemStyle": { "color": "#D1D8FF", "borderRadius": 0 },
         "label": {
           "show": true,
           "formatter": "{c}%",
@@ -199,22 +182,18 @@
     {
       "query": { "maxWidth": 520 },
       "option": {
-        "title": { "show": false },
-        "graphic": [
-          {
-            "type": "text",
-            "left": "center",
-            "top": 8,
-            "style": {
-              "text": "Models don’t consistently express\nappropriate uncertainty\nin high-stakes medical scenarios",
-              "fill": "#141414",
-              "font": "normal 13px Avenir Next, Avenir, Segoe UI, sans-serif",
-              "lineHeight": 16,
-              "align": "center",
-              "textAlign": "center"
-            }
+        "title": {
+          "show": true,
+          "left": "center",
+          "top": 8,
+          "text": "Models don’t consistently express\nappropriate uncertainty\nin high-stakes medical scenarios",
+          "textStyle": {
+            "fontSize": 13,
+            "fontWeight": "normal",
+            "color": "#141414",
+            "lineHeight": 16
           }
-        ],
+        },
         "tooltip": {
           "triggerOn": "click",
           "confine": true
@@ -232,7 +211,7 @@
         "grid": {
           "left": 92,
           "right": 12,
-          "top": 88,
+          "top": 96,
           "bottom": 118
         },
         "xAxis": {
