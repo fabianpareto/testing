@@ -7,7 +7,7 @@
   },
   "baseOption": {
     "title": {
-      "text": "Frontier models don't consistently express appropriate uncertainty\nfor high-stakes medical scenarios",
+      "text": "Frontier models do not consistently express appropriate uncertainty\nfor high-stakes medical scenarios",
       "left": "center",
       "top": 8,
       "textStyle": {
@@ -183,8 +183,10 @@
       "query": { "maxWidth": 1200 },
       "option": {
         "title": {
-          "left": "center",
+          "left": 0,
+          "right": 0,
           "top": 8,
+          "textAlign": "center",
           "textStyle": {
             "fontSize": 17,
             "lineHeight": 22,
@@ -254,7 +256,8 @@
       "option": {
         "title": {
           "text": "Models don’t consistently express\nappropriate uncertainty\nin high-stakes medical scenarios",
-          "left": "center",
+          "left": 0,
+          "right": 0,
           "top": 8,
           "textAlign": "center",
           "textStyle": {
@@ -263,6 +266,10 @@
             "fontWeight": "normal",
             "color": "#141414"
           }
+        },
+        "tooltip": {
+          "triggerOn": "click",
+          "confine": true
         },
         "legend": {
           "left": "center",
@@ -282,9 +289,12 @@
         },
         "xAxis": {
           "axisLabel": {
-            "rotate": 30,
+            "rotate": 20,
             "fontSize": 11,
-            "margin": 10
+            "margin": 10,
+            "width": 95,
+            "overflow": "truncate",
+            "ellipsis": "…"
           },
           "nameGap": 90,
           "nameTextStyle": {
