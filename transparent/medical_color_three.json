@@ -7,7 +7,7 @@
   },
   "baseOption": {
     "title": {
-      "text": "Frontier models do not consistently express appropriate uncertainty\nfor high-stakes medical scenarios",
+      "text": "Frontier models don't consistently express appropriate uncertainty\nfor high-stakes medical scenarios",
       "left": "center",
       "top": 8,
       "textStyle": {
