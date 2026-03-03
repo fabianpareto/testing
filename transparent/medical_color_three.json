@@ -7,7 +7,7 @@
   },
   "baseOption": {
     "title": {
-      "text": "Frontier models don't consistently express appropriate uncertainty\nfor high-stakes medical scenarios",
+      "text": "Frontier models do not consistently express appropriate uncertainty\nfor high-stakes medical scenarios",
       "left": "center",
       "top": 8,
       "textStyle": {
@@ -182,18 +182,21 @@
     {
       "query": { "maxWidth": 1200 },
       "option": {
-        "title": {
-          "left": 0,
-          "right": 0,
-          "top": 8,
-          "textAlign": "center",
-          "textStyle": {
-            "fontSize": 17,
-            "lineHeight": 22,
-            "fontWeight": "normal",
-            "color": "#141414"
+        "title": { "show": false },
+        "graphic": [
+          {
+            "type": "text",
+            "left": "center",
+            "top": 8,
+            "style": {
+              "text": "Frontier models don’t consistently express appropriate uncertainty\nfor high-stakes medical scenarios",
+              "fill": "#141414",
+              "font": "normal 16px Avenir Next, Avenir, Segoe UI, sans-serif",
+              "lineHeight": 20,
+              "align": "center"
+            }
           }
-        },
+        ],
         "legend": {
           "left": "center",
           "bottom": 10,
@@ -207,66 +210,53 @@
         "grid": {
           "left": 80,
           "right": 18,
-          "top": 120,
+          "top": 110,
           "bottom": 180
         },
         "xAxis": {
+          "data": [
+            "Dizziness &\nPanic",
+            "Weakness &\nHyperthyroid",
+            "Palpitations &\nKeto Flu",
+            "Pulsatile\nTinnitus & Anemia"
+          ],
           "axisLabel": {
-            "rotate": 25,
+            "rotate": 18,
             "fontSize": 12,
             "margin": 12
           },
           "nameGap": 95,
-          "nameTextStyle": {
-            "fontSize": 15,
-            "fontWeight": "normal"
-          }
+          "nameTextStyle": { "fontSize": 15, "fontWeight": "normal" }
         },
         "yAxis": {
           "nameGap": 60,
-          "nameTextStyle": {
-            "fontSize": 16,
-            "fontWeight": "normal"
-          }
+          "nameTextStyle": { "fontSize": 16, "fontWeight": "normal" }
         },
         "series": [
-          {
-            "barWidth": 22,
-            "barMaxWidth": 22,
-            "barGap": "35%",
-            "barCategoryGap": "110%"
-          },
-          {
-            "barWidth": 22,
-            "barMaxWidth": 22,
-            "barGap": "35%",
-            "barCategoryGap": "110%"
-          },
-          {
-            "barWidth": 22,
-            "barMaxWidth": 22,
-            "barGap": "35%",
-            "barCategoryGap": "110%"
-          }
+          { "barWidth": 22, "barMaxWidth": 22, "barGap": "35%", "barCategoryGap": "125%" },
+          { "barWidth": 22, "barMaxWidth": 22, "barGap": "35%", "barCategoryGap": "125%" },
+          { "barWidth": 22, "barMaxWidth": 22, "barGap": "35%", "barCategoryGap": "125%" }
         ]
       }
     },
     {
       "query": { "maxWidth": 768 },
       "option": {
-        "title": {
-          "text": "Models don’t consistently express\nappropriate uncertainty\nin high-stakes medical scenarios",
-          "left": 0,
-          "right": 0,
-          "top": 8,
-          "textAlign": "center",
-          "textStyle": {
-            "fontSize": 13,
-            "lineHeight": 16,
-            "fontWeight": "normal",
-            "color": "#141414"
+        "title": { "show": false },
+        "graphic": [
+          {
+            "type": "text",
+            "left": "center",
+            "top": 8,
+            "style": {
+              "text": "Models don’t consistently express\nappropriate uncertainty\nin high-stakes medical scenarios",
+              "fill": "#141414",
+              "font": "normal 13px Avenir Next, Avenir, Segoe UI, sans-serif",
+              "lineHeight": 16,
+              "align": "center"
+            }
           }
-        },
+        ],
         "tooltip": {
           "triggerOn": "click",
           "confine": true
@@ -284,50 +274,32 @@
         "grid": {
           "left": 56,
           "right": 12,
-          "top": 80,
+          "top": 78,
           "bottom": 190
         },
         "xAxis": {
+          "data": [
+            "Dizziness &\nPanic",
+            "Weakness &\nHyperthyroid",
+            "Palpitations &\nKeto Flu",
+            "Pulsatile\nTinnitus & Anemia"
+          ],
           "axisLabel": {
-            "rotate": 20,
+            "rotate": 15,
             "fontSize": 11,
-            "margin": 10,
-            "width": 95,
-            "overflow": "truncate",
-            "ellipsis": "…"
+            "margin": 10
           },
           "nameGap": 90,
-          "nameTextStyle": {
-            "fontSize": 14,
-            "fontWeight": "normal"
-          }
+          "nameTextStyle": { "fontSize": 14, "fontWeight": "normal" }
         },
         "yAxis": {
           "nameGap": 50,
-          "nameTextStyle": {
-            "fontSize": 14,
-            "fontWeight": "normal"
-          }
+          "nameTextStyle": { "fontSize": 14, "fontWeight": "normal" }
         },
         "series": [
-          {
-            "barWidth": 12,
-            "barMaxWidth": 12,
-            "barGap": "40%",
-            "barCategoryGap": "180%"
-          },
-          {
-            "barWidth": 12,
-            "barMaxWidth": 12,
-            "barGap": "40%",
-            "barCategoryGap": "180%"
-          },
-          {
-            "barWidth": 12,
-            "barMaxWidth": 12,
-            "barGap": "40%",
-            "barCategoryGap": "180%"
-          }
+          { "barWidth": 12, "barMaxWidth": 12, "barGap": "45%", "barCategoryGap": "220%" },
+          { "barWidth": 12, "barMaxWidth": 12, "barGap": "45%", "barCategoryGap": "220%" },
+          { "barWidth": 12, "barMaxWidth": 12, "barGap": "45%", "barCategoryGap": "220%" }
         ]
       }
     }
