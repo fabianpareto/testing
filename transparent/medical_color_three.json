@@ -209,7 +209,7 @@
           "textStyle": { "fontSize": 12 }
         },
         "grid": {
-          "left": 36,
+          "left": 42,
           "right": 10,
           "top": 96,
           "bottom": 114
@@ -244,9 +244,9 @@
           }
         },
         "series": [
-          { "barWidth": 12, "barMaxWidth": 12, "barGap": "45%", "barCategoryGap": "220%" },
-          { "barWidth": 12, "barMaxWidth": 12, "barGap": "45%", "barCategoryGap": "220%" },
-          { "barWidth": 12, "barMaxWidth": 12, "barGap": "45%", "barCategoryGap": "220%" }
+          { "barWidth": 14, "barMaxWidth": 14, "barGap": "45%", "barCategoryGap": "220%" },
+          { "barWidth": 14, "barMaxWidth": 14, "barGap": "45%", "barCategoryGap": "220%" },
+          { "barWidth": 14, "barMaxWidth": 14, "barGap": "45%", "barCategoryGap": "220%" }
         ]
       }
     }
