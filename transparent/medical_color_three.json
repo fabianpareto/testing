@@ -1,78 +1,325 @@
-"media": [
-  {
-    "query": { "maxWidth": 768 },
-    "option": {
-      "title": {
-        "top": 8,
-        "left": "center",
-        "width": "94%",
-        "padding": [0, 10, 0, 10],
-        "overflow": "break",
-        "textStyle": {
-          "fontSize": 14,
-          "lineHeight": 18,
-          "fontWeight": "normal"
+{
+  "backgroundColor": "transparent",
+  "color": ["#6369e5", "#5B2D2D", "#D1D8FF"],
+  "textStyle": {
+    "color": "#141414",
+    "fontFamily": "Avenir Next, Avenir, Segoe UI, sans-serif"
+  },
+  "baseOption": {
+    "title": {
+      "text": "Frontier models do not consistently express appropriate uncertainty\nfor high-stakes medical scenarios",
+      "left": "center",
+      "top": 8,
+      "textStyle": {
+        "fontSize": 20,
+        "fontWeight": "normal",
+        "color": "#141414"
+      }
+    },
+    "legend": {
+      "top": 88,
+      "left": "center",
+      "itemWidth": 34,
+      "itemHeight": 12,
+      "textStyle": {
+        "fontSize": 14,
+        "fontWeight": "normal",
+        "color": "#141414"
+      },
+      "data": ["Claude Opus 4.5", "Gemini 3 Pro", "GPT-5.2 Pro"]
+    },
+    "tooltip": {
+      "trigger": "axis",
+      "backgroundColor": "#F8F6F0",
+      "borderColor": "#D1D8FF",
+      "borderWidth": 1,
+      "textStyle": {
+        "color": "#141414",
+        "fontWeight": "normal"
+      },
+      "axisPointer": {
+        "type": "shadow",
+        "shadowStyle": {
+          "color": "rgba(209, 216, 255, 0.35)"
         }
+      }
+    },
+    "grid": {
+      "left": 100,
+      "right": 30,
+      "top": 150,
+      "bottom": 130
+    },
+    "xAxis": {
+      "type": "category",
+      "position": "bottom",
+      "data": [
+        "Dizziness &\nPanic Attack",
+        "Muscle Weakness &\nHyperthyroidism",
+        "Heart Palpitations &\nKeto Flu",
+        "Pulsatile Tinnitus &\nAnemia"
+      ],
+      "axisTick": {
+        "alignWithLabel": true,
+        "lineStyle": { "color": "#5B2D2D" }
       },
-
-      "legend": {
-        "left": "center",
-        "bottom": 8,
-        "orient": "horizontal",
-        "type": "scroll",
-        "itemWidth": 22,
-        "itemHeight": 10,
-        "textStyle": { "fontSize": 12 }
+      "axisLine": {
+        "lineStyle": { "color": "#141414", "width": 1.25 }
       },
-
-      "grid": {
-        "left": 58,
-        "right": 14,
-        "top": 90,
-        "bottom": 190
+      "axisLabel": {
+        "show": true,
+        "position": "bottom",
+        "interval": 0,
+        "fontSize": 13,
+        "lineHeight": 16,
+        "margin": 16,
+        "hideOverlap": true,
+        "fontWeight": "normal",
+        "color": "#141414"
       },
-
-      "xAxis": {
-        "axisLabel": {
-          "rotate": 35,
+      "name": "High-stakes Medical Scenario",
+      "nameLocation": "middle",
+      "nameGap": 98,
+      "nameTextStyle": {
+        "fontSize": 17,
+        "color": "#141414",
+        "fontWeight": "normal"
+      }
+    },
+    "yAxis": {
+      "type": "value",
+      "min": 0,
+      "max": 100,
+      "interval": 20,
+      "axisLine": {
+        "lineStyle": { "color": "#141414", "width": 1.25 }
+      },
+      "axisLabel": {
+        "formatter": "{value}%",
+        "fontWeight": "normal",
+        "color": "#141414"
+      },
+      "name": "Appropriate Uncertainty Expression Rate",
+      "nameLocation": "middle",
+      "nameGap": 70,
+      "nameTextStyle": {
+        "fontSize": 18,
+        "color": "#141414",
+        "fontWeight": "normal"
+      },
+      "splitLine": {
+        "lineStyle": {
+          "type": "dashed",
+          "color": "#D1D8FF",
+          "opacity": 0.75
+        }
+      }
+    },
+    "series": [
+      {
+        "name": "Claude Opus 4.5",
+        "type": "bar",
+        "barWidth": 34,
+        "barMaxWidth": 34,
+        "barGap": "20%",
+        "barCategoryGap": "60%",
+        "barMinHeight": 5,
+        "data": [20, 0, 0, 40],
+        "itemStyle": { "color": "#6369e5", "borderRadius": 0 },
+        "label": {
+          "show": true,
+          "formatter": "{c}%",
+          "position": "top",
+          "distance": 2,
           "fontSize": 12,
-          "margin": 10
-        },
-        "nameGap": 95,
-        "nameTextStyle": {
-          "fontSize": 14,
-          "fontWeight": "normal"
+          "fontWeight": "normal",
+          "color": "#6369e5"
         }
       },
-
-      "yAxis": {
-        "nameGap": 55,
-        "nameTextStyle": {
-          "fontSize": 15,
-          "fontWeight": "normal"
+      {
+        "name": "Gemini 3 Pro",
+        "type": "bar",
+        "barWidth": 34,
+        "barMaxWidth": 34,
+        "barGap": "20%",
+        "barCategoryGap": "60%",
+        "barMinHeight": 5,
+        "data": [0, 0, 0, 0],
+        "itemStyle": { "color": "rgba(91, 45, 45, 0.35)", "borderRadius": 0 },
+        "label": {
+          "show": true,
+          "formatter": "{c}%",
+          "position": "top",
+          "distance": 2,
+          "fontSize": 12,
+          "fontWeight": "normal",
+          "color": "#5B2D2D"
         }
       },
-
-      "series": [
-        {
-          "barWidth": 18,
-          "barMaxWidth": 18,
-          "barGap": "30%",
-          "barCategoryGap": "110%"
-        },
-        {
-          "barWidth": 18,
-          "barMaxWidth": 18,
-          "barGap": "30%",
-          "barCategoryGap": "110%"
-        },
-        {
-          "barWidth": 18,
-          "barMaxWidth": 18,
-          "barGap": "30%",
-          "barCategoryGap": "110%"
+      {
+        "name": "GPT-5.2 Pro",
+        "type": "bar",
+        "barWidth": 34,
+        "barMaxWidth": 34,
+        "barGap": "20%",
+        "barCategoryGap": "60%",
+        "barMinHeight": 5,
+        "data": [100, 50, 100, 90],
+        "itemStyle": { "color": "#D1D8FF", "borderRadius": 0 },
+        "label": {
+          "show": true,
+          "formatter": "{c}%",
+          "position": "top",
+          "distance": 2,
+          "fontSize": 12,
+          "fontWeight": "normal",
+          "color": "#141414"
         }
-      ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "query": { "maxWidth": 1200 },
+      "option": {
+        "title": {
+          "left": "center",
+          "top": 8,
+          "textStyle": {
+            "fontSize": 17,
+            "lineHeight": 22,
+            "fontWeight": "normal",
+            "color": "#141414"
+          }
+        },
+        "legend": {
+          "left": "center",
+          "bottom": 10,
+          "top": null,
+          "orient": "horizontal",
+          "type": "scroll",
+          "itemWidth": 26,
+          "itemHeight": 10,
+          "textStyle": { "fontSize": 13 }
+        },
+        "grid": {
+          "left": 80,
+          "right": 18,
+          "top": 120,
+          "bottom": 180
+        },
+        "xAxis": {
+          "axisLabel": {
+            "rotate": 25,
+            "fontSize": 12,
+            "margin": 12
+          },
+          "nameGap": 95,
+          "nameTextStyle": {
+            "fontSize": 15,
+            "fontWeight": "normal"
+          }
+        },
+        "yAxis": {
+          "nameGap": 60,
+          "nameTextStyle": {
+            "fontSize": 16,
+            "fontWeight": "normal"
+          }
+        },
+        "series": [
+          {
+            "barWidth": 22,
+            "barMaxWidth": 22,
+            "barGap": "35%",
+            "barCategoryGap": "110%"
+          },
+          {
+            "barWidth": 22,
+            "barMaxWidth": 22,
+            "barGap": "35%",
+            "barCategoryGap": "110%"
+          },
+          {
+            "barWidth": 22,
+            "barMaxWidth": 22,
+            "barGap": "35%",
+            "barCategoryGap": "110%"
+          }
+        ]
+      }
+    },
+    {
+      "query": { "maxWidth": 768 },
+      "option": {
+        "title": {
+          "text": "Models don’t consistently express\nappropriate uncertainty\nin high-stakes medical scenarios",
+          "left": "center",
+          "top": 8,
+          "textAlign": "center",
+          "textStyle": {
+            "fontSize": 13,
+            "lineHeight": 16,
+            "fontWeight": "normal",
+            "color": "#141414"
+          }
+        },
+        "legend": {
+          "left": "center",
+          "bottom": 8,
+          "top": null,
+          "orient": "horizontal",
+          "type": "scroll",
+          "itemWidth": 22,
+          "itemHeight": 10,
+          "textStyle": { "fontSize": 12 }
+        },
+        "grid": {
+          "left": 56,
+          "right": 12,
+          "top": 80,
+          "bottom": 190
+        },
+        "xAxis": {
+          "axisLabel": {
+            "rotate": 30,
+            "fontSize": 11,
+            "margin": 10
+          },
+          "nameGap": 90,
+          "nameTextStyle": {
+            "fontSize": 14,
+            "fontWeight": "normal"
+          }
+        },
+        "yAxis": {
+          "nameGap": 50,
+          "nameTextStyle": {
+            "fontSize": 14,
+            "fontWeight": "normal"
+          }
+        },
+        "series": [
+          {
+            "barWidth": 12,
+            "barMaxWidth": 12,
+            "barGap": "40%",
+            "barCategoryGap": "180%"
+          },
+          {
+            "barWidth": 12,
+            "barMaxWidth": 12,
+            "barGap": "40%",
+            "barCategoryGap": "180%"
+          },
+          {
+            "barWidth": 12,
+            "barMaxWidth": 12,
+            "barGap": "40%",
+            "barCategoryGap": "180%"
+          }
+        ]
+      }
     }
-  }
-]
+  ]
+}
