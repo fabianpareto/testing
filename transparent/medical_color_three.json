@@ -200,7 +200,7 @@
         },
         "legend": {
           "left": "center",
-          "bottom": 28,
+          "bottom": 26,
           "top": null,
           "orient": "horizontal",
           "type": "scroll",
@@ -209,17 +209,17 @@
           "textStyle": { "fontSize": 12 }
         },
         "grid": {
-          "left": 92,
-          "right": 12,
+          "left": 64,
+          "right": 10,
           "top": 96,
-          "bottom": 118
+          "bottom": 114
         },
         "xAxis": {
           "axisLabel": { "show": false },
           "axisTick": { "show": false },
           "name": "High-stakes Medical Scenario",
           "nameLocation": "middle",
-          "nameGap": 54,
+          "nameGap": 50,
           "nameTextStyle": {
             "fontSize": 12,
             "fontWeight": "normal",
@@ -228,11 +228,19 @@
         },
         "yAxis": {
           "name": "Uncertainty rate",
-          "nameGap": 52,
+          "nameLocation": "middle",
+          "nameRotate": 90,
+          "nameGap": 34,
           "nameTextStyle": {
             "fontSize": 12,
             "fontWeight": "normal",
             "color": "#141414"
+          },
+          "axisLabel": {
+            "formatter": "{value}%",
+            "fontWeight": "normal",
+            "color": "#141414",
+            "margin": 8
           }
         },
         "series": [
