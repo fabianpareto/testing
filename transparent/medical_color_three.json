@@ -117,7 +117,6 @@
     },
     "series": [
       {
-        "id": "claude",
         "name": "Claude Opus 4.5",
         "type": "bar",
         "barWidth": 34,
@@ -138,7 +137,6 @@
         }
       },
       {
-        "id": "gemini",
         "name": "Gemini 3 Pro",
         "type": "bar",
         "barWidth": 34,
@@ -159,7 +157,6 @@
         }
       },
       {
-        "id": "gpt",
         "name": "GPT-5.2 Pro",
         "type": "bar",
         "barWidth": 34,
@@ -244,9 +241,66 @@
           "axisLine": { "show": false }
         },
         "series": [
-          { "id": "claude", "barWidth": 14, "barMaxWidth": 14, "barGap": "45%", "barCategoryGap": "220%" },
-          { "id": "gemini", "barWidth": 14, "barMaxWidth": 14, "barGap": "45%", "barCategoryGap": "220%" },
-          { "id": "gpt", "barWidth": 14, "barMaxWidth": 14, "barGap": "45%", "barCategoryGap": "220%" }
+          {
+            "name": "Claude Opus 4.5",
+            "type": "bar",
+            "barWidth": 14,
+            "barMaxWidth": 14,
+            "barGap": "45%",
+            "barCategoryGap": "220%",
+            "barMinHeight": 5,
+            "data": [20, 0, 0, 40],
+            "itemStyle": { "color": "#6369e5", "borderRadius": 0 },
+            "label": {
+              "show": true,
+              "formatter": "{c}%",
+              "position": "top",
+              "distance": 2,
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "color": "#6369e5"
+            }
+          },
+          {
+            "name": "Gemini 3 Pro",
+            "type": "bar",
+            "barWidth": 14,
+            "barMaxWidth": 14,
+            "barGap": "45%",
+            "barCategoryGap": "220%",
+            "barMinHeight": 5,
+            "data": [0, 0, 0, 0],
+            "itemStyle": { "color": "rgba(91, 45, 45, 0.35)", "borderRadius": 0 },
+            "label": {
+              "show": true,
+              "formatter": "{c}%",
+              "position": "top",
+              "distance": 2,
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "color": "#5B2D2D"
+            }
+          },
+          {
+            "name": "GPT-5.2 Pro",
+            "type": "bar",
+            "barWidth": 14,
+            "barMaxWidth": 14,
+            "barGap": "45%",
+            "barCategoryGap": "220%",
+            "barMinHeight": 5,
+            "data": [100, 50, 100, 90],
+            "itemStyle": { "color": "#D1D8FF", "borderRadius": 0 },
+            "label": {
+              "show": true,
+              "formatter": "{c}%",
+              "position": "top",
+              "distance": 2,
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "color": "#141414"
+            }
+          }
         ]
       }
     }
