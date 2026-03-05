@@ -7,7 +7,7 @@
   },
   "baseOption": {
     "title": {
-      "text": "Frontier models do not consistently express appropriate uncertainty\nfor high-stakes medical scenarios",
+      "text": "Rate of appropriate uncertainty expression by high stakes medical scenario",
       "left": "center",
       "top": 8,
       "textStyle": {
@@ -99,7 +99,7 @@
         "fontWeight": "normal",
         "color": "#141414"
       },
-      "name": "Appropriate Uncertainty Expression Rate",
+      "name": "Rate of Appropriate Uncertainty Expression (%)",
       "nameLocation": "middle",
       "nameGap": 70,
       "nameTextStyle": {
@@ -186,7 +186,7 @@
           "show": true,
           "left": "center",
           "top": 8,
-          "text": "Models don’t consistently express\nappropriate uncertainty\nin high-stakes medical scenarios",
+          "text": "Rate of appropriate\nuncertainty expression\nby high stakes medical scenario",
           "textStyle": {
             "fontSize": 13,
             "fontWeight": "bold",
@@ -227,7 +227,7 @@
           }
         },
         "yAxis": {
-          "name": "Uncertainty rate",
+          "name": "Rate of Appropriate\nUncertainty Expression (%)",
           "nameLocation": "middle",
           "nameRotate": 90,
           "nameGap": 28,
