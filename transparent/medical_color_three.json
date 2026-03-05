@@ -117,6 +117,7 @@
     },
     "series": [
       {
+        "id": "claude",
         "name": "Claude Opus 4.5",
         "type": "bar",
         "barWidth": 34,
@@ -137,6 +138,7 @@
         }
       },
       {
+        "id": "gemini",
         "name": "Gemini 3 Pro",
         "type": "bar",
         "barWidth": 34,
@@ -157,6 +159,7 @@
         }
       },
       {
+        "id": "gpt",
         "name": "GPT-5.2 Pro",
         "type": "bar",
         "barWidth": 34,
@@ -200,7 +203,7 @@
         },
         "legend": {
           "left": "center",
-          "bottom": 26,
+          "bottom": 22,
           "top": null,
           "orient": "horizontal",
           "type": "scroll",
@@ -209,17 +212,17 @@
           "textStyle": { "fontSize": 12 }
         },
         "grid": {
-          "left": 42,
+          "left": 60,
           "right": 10,
           "top": 96,
-          "bottom": 114
+          "bottom": 108
         },
         "xAxis": {
           "axisLabel": { "show": false },
           "axisTick": { "show": false },
           "name": "High-stakes Medical Scenario",
           "nameLocation": "middle",
-          "nameGap": 34,
+          "nameGap": 28,
           "nameTextStyle": {
             "fontSize": 12,
             "fontWeight": "bold",
@@ -230,23 +233,20 @@
           "name": "Rate of Appropriate\nUncertainty Expression (%)",
           "nameLocation": "middle",
           "nameRotate": 90,
-          "nameGap": 28,
+          "nameGap": 30,
           "nameTextStyle": {
-            "fontSize": 12,
+            "fontSize": 11,
             "fontWeight": "bold",
-            "color": "#141414"
+            "color": "#141414",
+            "lineHeight": 13
           },
-          "axisLabel": {
-            "show": false
-          },
-          "axisLine": {
-            "show": false
-          }
+          "axisLabel": { "show": false },
+          "axisLine": { "show": false }
         },
         "series": [
-          { "barWidth": 14, "barMaxWidth": 14, "barGap": "45%", "barCategoryGap": "220%" },
-          { "barWidth": 14, "barMaxWidth": 14, "barGap": "45%", "barCategoryGap": "220%" },
-          { "barWidth": 14, "barMaxWidth": 14, "barGap": "45%", "barCategoryGap": "220%" }
+          { "id": "claude", "barWidth": 14, "barMaxWidth": 14, "barGap": "45%", "barCategoryGap": "220%" },
+          { "id": "gemini", "barWidth": 14, "barMaxWidth": 14, "barGap": "45%", "barCategoryGap": "220%" },
+          { "id": "gpt", "barWidth": 14, "barMaxWidth": 14, "barGap": "45%", "barCategoryGap": "220%" }
         ]
       }
     }
